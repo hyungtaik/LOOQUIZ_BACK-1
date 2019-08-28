@@ -6,13 +6,22 @@
 	<typeAliases>
 		<typeAlias type="kr.co.hi_story.dto.MemberDTO" alias="mdto"></typeAlias>
 		<typeAlias type="kr.co.hi_story.dto.QuizDTO" alias="qdto"></typeAlias>
+<<<<<<< HEAD
 		<typeAlias type="kr.co.hi_story.dto.ParticipationDTO" alias="pdto"></typeAlias>
 		<typeAlias type="kr.co.hi_story.dto.UtilDTO" alias="udto"></typeAlias>
+=======
+		<typeAlias type="kr.co.hi_story.dto.QuizRoomDTO" alias="qrdto"></typeAlias>
+		<typeAlias type="kr.co.hi_story.dto.ParticipationDTO" alias="pdto"></typeAlias>
+>>>>>>> d85a4d7230563738e7b9871980c848b6608ace84
 	</typeAliases>
 
 	<mappers>
 		<mapper resource="mapper/memberMapper.xml" />
 		<mapper resource="mapper/quizMapper.xml" />
+<<<<<<< HEAD
 		<mapper resource="mapper/utilMapper.xml" />
+=======
+		<mapper resource="mapper/quizRoomMapper.xml" />
+>>>>>>> d85a4d7230563738e7b9871980c848b6608ace84
 	</mappers>
 </configuration>
