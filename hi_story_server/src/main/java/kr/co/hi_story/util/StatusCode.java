@@ -1,5 +1,4 @@
 package kr.co.hi_story.util;
-
 public class StatusCode {
 
     public static final int OK = 200;

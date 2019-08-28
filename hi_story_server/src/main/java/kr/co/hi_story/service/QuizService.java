@@ -11,11 +11,7 @@ import kr.co.hi_story.dto.QuizDTO;
 
 
 public interface QuizService {
-<<<<<<< HEAD
 	public MessageDTO  createQ(QuizDTO dto);
-=======
-	public MessageDTO createQ(QuizDTO dto);
->>>>>>> d85a4d7230563738e7b9871980c848b6608ace84
 	
 	public MessageDTO deleteQ(QuizDTO dto);
 	

@@ -18,11 +18,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<select id= "rnameList" resultType="String">
 		select rname from region where cityname=#{cityname}
 	</select>
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> d85a4d7230563738e7b9871980c848b6608ace84
 	<select id="successRate" resultType="pdto">
     	select rname,oCount,totalCount from participation where rname=#{rname} and uid=#{uid}
     </select>
